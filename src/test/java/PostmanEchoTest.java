@@ -18,7 +18,7 @@ void shouldSendPost() {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("bye"))
+                .body("data", equalTo("hello"))
         ;
     }
 }
